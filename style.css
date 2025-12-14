@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #ECEFF1;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.app {
+  background: white;
+  width: 330px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+h1 {
+  text-align: center;
+  color: #64B5F6;
+}
+
+select {
+  width: 100%;
+  padding: 6px;
+  margin-bottom: 10px;
+}
+
+.add-task {
+  display: flex;
+  gap: 5px;
+}
+
+.add-task input {
+  flex: 1;
+  padding: 8px;
+}
+
+.add-task button {
+  background: #FF8A65;
+  border: none;
+  color: white;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.controls button {
+  background: #64B5F6;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+li {
+  background: #f5f5f5;
+  padding: 8px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+li.done {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.footer {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 12px;
+  color: #777;
+}
